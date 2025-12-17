@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Odisha Disaster Management Assistant</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="app-container">
+    <!-- Sidebar -->
+    <aside class="sidebar" id="sidebar">
+      <div class="logo-container">
+        <!-- <img src="logo.png" alt="Odisha Disaster Management Assistant" class="logo"> -->
+        <h2>ODMA</h2>
+      </div>
+      <button id="new-chat-btn" class="new-chat-btn">+ New Chat</button>
+      <div id="chat-history" class="chat-history"></div>
+    </aside>
+
+    <!-- Main Chat -->
+    <div class="chat-container">
+      <header class="chat-header">
+        <button id="menu-toggle" class="menu-toggle">☰</button>
+        <h1 id="chat-title">New Chat</h1>
+      </header>
+
+      <div id="chat-box" class="chat-box">
+        <div class="message ai">
+          <div class="bubble">Hello! 👋 I am the Odisha Disaster Management Assistant. How can I help you today?</div>
+        </div>
+      </div>
+
+      <div class="chat-input-container">
+        <textarea id="user-input" placeholder="Type a message..." rows="1"></textarea>
+        <button id="send-btn">➤</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
