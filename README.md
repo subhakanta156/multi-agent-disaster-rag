@@ -1,12 +1,3 @@
----
-title: Odisha Disaster Management Assistant
-emoji: 🌪️
-colorFrom: indigo
-colorTo: blue
-sdk: docker
-app_port: 7860
-pinned: false
----
 
 #  Intelligent RAG-Driven Disaster Response and Information Agent for Odisha
 ## Multi-Agent • Multi-Modal RAG • Memory-Aware • Explainable AI System
@@ -305,17 +296,4 @@ Interview-ready GenAI portfolio project
 MSc AI & ML | Multi-Agent Systems | RAG | Applied AI  
 📍 Odisha, India  
 
-=======
----
-title: Odisha Disaster Management Ai
-emoji: ⚡
-colorFrom: yellow
-colorTo: purple
-sdk: docker
-pinned: false
-license: mit
-short_description: 'Multi-agent RAG-based AI assistant for Odisha disaster '
----
 
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
->>>>>>> 824b6f1c3f5f0b56fbc2645076d26e5f966d610a
